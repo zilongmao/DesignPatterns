@@ -5,6 +5,7 @@ import java.util.List;
 
 /**
  * Created by longmao on 2018/3/6
+ * 创建一个 Meal 类，带有上面定义的 Item 对象。
  */
 public class Meal {
     private List<Item> items = new ArrayList<>();

@@ -6,6 +6,7 @@ import com.longmao.create.builderpattern.entity.Wrapper;
 
 /**
  * Created by longmao on 2018/3/5
+ * 抽象汉堡类，实现item接口。有打包的函数和价格属性
  */
 public abstract class Burger implements Item {
     @Override

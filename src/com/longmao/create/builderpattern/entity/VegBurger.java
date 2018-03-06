@@ -2,6 +2,7 @@ package com.longmao.create.builderpattern.entity;
 
 /**
  * Created by longmao on 2018/3/6
+ * 素汉堡的价格为33.3元
  */
 public class VegBurger extends Burger {
     @Override

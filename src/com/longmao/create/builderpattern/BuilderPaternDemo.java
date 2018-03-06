@@ -4,6 +4,7 @@ import com.longmao.create.builderpattern.entity.MealBuilder;
 
 /**
  * Created by longmao on 2018/3/6
+ * BuiderPatternDemo 使用 MealBuider 来演示建造者模式（Builder Pattern）。
  */
 public class BuilderPaternDemo {
     public static void main(String[] args) {
