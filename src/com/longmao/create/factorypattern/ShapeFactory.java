@@ -7,7 +7,7 @@ package com.longmao.create.factorypattern;
 public class ShapeFactory {
 //  使用getShape函数来获取图形对象
     public Shape getShape(String shapeType) {
-        if (shapeType == null) {
+        if (shapeType == null || "".equals(shapeType)) {
             return null;
         }
         if (shapeType.equalsIgnoreCase("CIRCLE")) {
